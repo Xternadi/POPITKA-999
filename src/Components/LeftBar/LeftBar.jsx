@@ -1,20 +1,14 @@
 import React from 'react';
 import './LeftBar.css';
 
-class Header extends React.Component{
+class LeftBar extends React.Component{
     render(){
     return (
-        <div className='golova'>
-            <div className="shapka">
-            <div className="Login">
-            <div className="Autoriz">Авторизация:</div>
-                <div className="LoginUch">Учреждение</div>
-                <div className="LoginRab">Работодатель</div>
-                </div>    
-            </div>
+        <div className='LeftBar'>
+            
     </div> 
     );
     }
 }
 
-export default Header;
+export default LeftBar;
