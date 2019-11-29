@@ -1,17 +1,24 @@
 import React from 'react';
 import './App.css';
 import Header from './Components/Header/Header';
-import LeftBar from './Components/LeftBar/LeftBar';
+import LeftBarGorod from './Components/LeftBar/LeftBar';
 import Content from './Components/Content/Content';
+import {BrowserRouter, Route, NavLink} from 'react-router-dom';
+import LeftBarUchrezh from './Components/LeftBar/Type/Gorod';
+
 
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
       <Header/>
-      <LeftBar/>
+      <Route path='/' component={LeftBarGorod}/>
+    <Route path='/Dimitrovgrad' component={LeftBarUchrezh}/>
+     {/* <LeftBar/>*/}
       <Content/>
     </div>
+    </BrowserRouter>
   );
 }
 
