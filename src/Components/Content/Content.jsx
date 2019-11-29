@@ -10,6 +10,22 @@ class Content extends React.Component{
               <div className="Photo"><img className="Photo" src={photo}/></div>
               <div className="FIO">Иванова Елена Ивановна</div>
           </div>  
+          <div className="block">
+              <div className="Photo"><img className="Photo" src={photo}/></div>
+              <div className="FIO">Иванова Елена Ивановна</div>
+          </div> 
+          <div className="block">
+              <div className="Photo"><img className="Photo" src={photo}/></div>
+              <div className="FIO">Иванова Елена Ивановна</div>
+          </div> 
+          <div className="block">
+              <div className="Photo"><img className="Photo" src={photo}/></div>
+              <div className="FIO">Иванова Елена Ивановна</div>
+          </div> 
+          <div className="block">
+              <div className="Photo"><img className="Photo" src={photo}/></div>
+              <div className="FIO">Иванова Елена Ивановна</div>
+          </div> 
     </div> 
     );
     }
