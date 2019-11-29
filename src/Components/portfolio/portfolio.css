@@ -72,3 +72,25 @@ h2{
 	float: right;
     width: 500px;
 }	
+.recomendation > input{ 
+	float: left; 
+	width: 286px; 
+	height: 27px; 
+	background-color: rgba(0,0,0,0); 
+	color: white; 
+	font-size: 17px; 
+	padding-left: 7px; 
+	} 
+	.recomendation > textarea{ 
+	float: right; 
+	width: 500px; 
+	} 
+	input{ 
+	border: none; 
+	} 
+	textarea{ 
+	background-color: rgba(0,0,0,0); 
+	color: white; 
+	border: none; 
+	
+	}

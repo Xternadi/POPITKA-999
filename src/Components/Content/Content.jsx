@@ -11,7 +11,7 @@ class Content extends React.Component{
         <BrowserRouter>
         <div className='Content'>
             <Route path="/dannie" component={Dannie}/>
-            <Route path="/dannie/choose" component={Portfolio}/>
+            <Route path="/choose" component={Portfolio}/>
           <BrowserRouter/>
     </div> 
     </BrowserRouter>
