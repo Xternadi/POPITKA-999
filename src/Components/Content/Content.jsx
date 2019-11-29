@@ -3,6 +3,7 @@ import './Content.css';
 import Dannie from './dannie';
 import Portfolio from '../portfolio/portfolio';
 import {BrowserRouter, Route} from "react-router-dom";
+import Zagruzka from './Zagruzka';
 
 
 class Content extends React.Component{
@@ -10,11 +11,11 @@ class Content extends React.Component{
     return (
         <BrowserRouter>
         <div className='Content'>
-            <Route path="/dannie" component={Dannie}/>
-            <Route path="/choose" component={Portfolio}/>
-          <BrowserRouter/>
-    </div> 
-    </BrowserRouter>
+        <Route exact path="/" component={Zagruzka}/>
+            <Route exact path="/dimitrovgrad/DITI/Prog" component={Dannie}/>
+            <Route exact path="/dimitrovgrad/DITI/Prog/choose" component={Portfolio}/>
+    </div>
+    </BrowserRouter> 
     );
     }
 }

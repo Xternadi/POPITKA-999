@@ -7,7 +7,7 @@ class Dannie extends React.Component{
     render(){
     return (
         <div>
-          <NavLink to="/Choose"><div className="block">
+          <NavLink to="/dimitrovgrad/DITI/Prog/Choose"><div className="block">
               <div className="Photo"><img className="Photo" src={photo}/></div>
               <div className="FIO">Иванова Елена Ивановна</div></div>
           </NavLink>  
