@@ -1,22 +1,24 @@
 import React from 'react';
 import './LeftBar.css';
+import {NavLink, Route, BrowserRouter} from "react-router-dom";
 
 class LeftBar extends React.Component{
     render(){
     return (
-        <div className='LeftBar'>
+        <BrowserRouter>
+        <nav className='LeftBar'>
             <h1 className="Zagolovok">Навигация</h1>
         <div className="Spisok">
-            <li>Элемент 1</li>
-            <li>Элемент 1</li>
-            <li>Элемент 1</li>
-            <li>Элемент 1</li>
-            <li>Элемент 1</li>
-            <li>Элемент 1</li>
-            <li>Элемент 1</li>
-            <li>Элемент 1</li>
+            <NavLink to="/dannie" className="Elem"> Элемент 1</NavLink><br/>
+            <NavLink to="/dannie" className="Elem"> Элемент 1</NavLink><br/>
+            <NavLink to="/dannie" className="Elem"> Элемент 1</NavLink><br/>
+            <NavLink to="/dannie" className="Elem"> Элемент 1</NavLink><br/>
+            <NavLink to="/dannie" className="Elem"> Элемент 1</NavLink><br/>
+            <NavLink to="/dannie" className="Elem"> Элемент 1</NavLink><br/>
+            <NavLink to="/dannie" className="Elem"> Элемент 1</NavLink><br/>
         </div>  
-    </div> 
+    </nav> 
+    </BrowserRouter>
     );
     }
 }

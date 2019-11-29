@@ -1,32 +1,20 @@
 import React from 'react';
 import './Content.css';
-import photo from './photo.jpg';
+import Dannie from './dannie';
+import Portfolio from '../portfolio/portfolio';
+import {BrowserRouter, Route} from "react-router-dom";
+
 
 class Content extends React.Component{
     render(){
     return (
+        <BrowserRouter>
         <div className='Content'>
-          <div className="block">
-              <div className="Photo"><img className="Photo" src={photo}/></div>
-              <div className="FIO">Иванова Елена Ивановна</div>
-          </div>  
-          <div className="block">
-              <div className="Photo"><img className="Photo" src={photo}/></div>
-              <div className="FIO">Иванова Елена Ивановна</div>
-          </div> 
-          <div className="block">
-              <div className="Photo"><img className="Photo" src={photo}/></div>
-              <div className="FIO">Иванова Елена Ивановна</div>
-          </div> 
-          <div className="block">
-              <div className="Photo"><img className="Photo" src={photo}/></div>
-              <div className="FIO">Иванова Елена Ивановна</div>
-          </div> 
-          <div className="block">
-              <div className="Photo"><img className="Photo" src={photo}/></div>
-              <div className="FIO">Иванова Елена Ивановна</div>
-          </div> 
+            <Route path="/dannie" component={Dannie}/>
+            <Route path="/dannie/choose" component={Portfolio}/>
+          <BrowserRouter/>
     </div> 
+    </BrowserRouter>
     );
     }
 }
