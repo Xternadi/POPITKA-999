@@ -1,14 +1,13 @@
 import React from 'react';
-import './Content.css';
-import photo from './photo.jpg';
+import '../../../../Content/Content.css';
 import {NavLink} from 'react-router-dom';
 
-class Dannie extends React.Component{
+class DannieProgDITI extends React.Component{
     render(){
     return (
         <div>
           <NavLink to="/dimitrovgrad/DITI/Prog/Choose"><div className="block">
-              <div className="Photo"><img className="Photo" src={photo}/></div>
+              <div className="Photo"><div className="Photo" /></div>
               <div className="FIO">Иванова Елена Ивановна</div></div>
           </NavLink>  
           {/*<div className="block">
@@ -32,4 +31,4 @@ class Dannie extends React.Component{
     }
 }
 
-export default Dannie;
+export default DannieProgDITI;
