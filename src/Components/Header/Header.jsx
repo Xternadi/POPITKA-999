@@ -7,9 +7,7 @@ class Header extends React.Component {
             <div className='golova'>
                 <div className="shapka">
                     <div className="Login">
-                        <div className="Autoriz">Авторизация:</div>
-                        <div className="LoginUch">Учреждение</div>
-                        <div className="LoginRab">Работодатель</div>
+                        <div className="Autoriz">Авторизация</div>
                     </div>
                 </div>
             </div>

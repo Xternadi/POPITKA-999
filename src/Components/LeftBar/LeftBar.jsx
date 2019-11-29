@@ -6,7 +6,7 @@ class LeftBar extends React.Component{
     return (
         <div className='LeftBar'>
             <h1 className="Zagolovok">Навигация</h1>
-        <ul type="disk" className="Spisok">
+        <div className="Spisok">
             <li>Элемент 1</li>
             <li>Элемент 1</li>
             <li>Элемент 1</li>
@@ -15,7 +15,7 @@ class LeftBar extends React.Component{
             <li>Элемент 1</li>
             <li>Элемент 1</li>
             <li>Элемент 1</li>
-        </ul>  
+        </div>  
     </div> 
     );
     }

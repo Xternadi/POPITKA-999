@@ -1,0 +1,23 @@
+.Content{
+    width: 80%;
+    float: left;
+    background: #ccffff;
+    height: 700px;
+}
+@media (max-width: 700px) { 
+    .Content { 
+        width: 550px; 
+     
+    } 
+    }
+.block{
+    width: 95%;
+    height: 75px;
+    background: #66cd64;
+    margin-left: 2.5%;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.Photo{
+
+}

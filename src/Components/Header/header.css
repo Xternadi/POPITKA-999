@@ -1,15 +1,16 @@
 .shapka{
-    background: #33ff66;
+    background: #0166ff;
     font-size: 14pt;
     height: 65px;
     width: 100%;
+    border: 3px double black;
 }
 .Login{
-    width: 500px;
+    width: 150px;
     height: 65px;
     margin-left: auto;
 }
-.LoginUch{
+/*.LoginUch{
     text-align: center;
     padding-top: 10px;
     width: 150px;
@@ -22,13 +23,15 @@
     width: 150px;
     height: 40px;
     float: left;
-}
+}*/
 .Autoriz{
-    text-align: right;
-    padding-top: 10px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
     width: 150px;
-    height: 40px;
+    height: 45px;
     float: left;
+    font-weight: bold;
 }
 .LoginUch:hover{
     border: 2px solid blue;

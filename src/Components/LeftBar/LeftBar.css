@@ -1,17 +1,25 @@
 .LeftBar{
     height: 700px;
     width: 20%;
-    background: gray;
+    background: #ccffff;
     float: left;
 }
 .Spisok{
     line-height: 2;
     font-size: 20pt;
-    color: black;
+    color: white;
+    background: #67cc66;
 
+}
+li{
+    border: 1px solid #1c3230;
+    list-style-type: none;
+    text-align: center;
+    margin-top: -1px;
 }
 .Zagolovok{
     text-align: center;
+    color: #003105;
 }
 @media (min-width: 700px) and (max-width: 1024px) { 
     .Spisok { 
