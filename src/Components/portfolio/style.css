@@ -1,0 +1,75 @@
+.rezume{
+	width:800px;
+	height: 1200px;
+	background-color: #CCFFFF;
+
+}
+.fst_section{
+	width: 800px;
+	height: 200px;
+}
+.photo{
+	width: 150px;
+	height: 200px;
+	float: left;
+	background-color: #b0aaaa;
+}
+.FIO_spec{
+	float: left;
+	width: 650px;
+	height: 200px;
+}
+.FIO_spec > div{
+text-align: center;
+font-size: 30px;
+}
+.FIO{
+	height:50px;
+	width: 100%;
+	position: relative;
+}
+.FIO > input{
+	height:44px;
+	width: 100%;
+	float: left;
+	font-size: 30px;
+}
+.spec{
+	height:50px;
+	width: 100%;
+}
+.spec > input{
+	height:44px;
+	width: 100%;
+	float: left;
+	font-size: 30px;
+}
+.about{
+	width: 800px;
+}
+h2{
+	text-align: center;
+	font-size: 30px;
+}
+.about > textarea{
+	width: 100%;
+	resize: none;
+}
+.recomendation{
+    width: 100%;
+    height: 90px;
+    border-radius: 20px;
+    background-color: #66CC66;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.recomendation > input{
+	float: left;
+	width: 290px;
+	height: 27px;
+}
+.recomendation > textarea{
+	float: right;
+    width: 500px;
+}	
+}
