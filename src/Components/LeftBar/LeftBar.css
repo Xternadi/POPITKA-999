@@ -13,7 +13,7 @@
 }
 .Elem{
     list-style-type: none;
-    padding-left: 10%;
+    margin-left: 10%;
     margin-top: -1px;
     color: white;
     width: 100%;
@@ -27,28 +27,36 @@
     text-align: center;
     color: #003105;
 }
-@media (min-width: 700px) and (max-width: 1024px) { 
-    .Spisok { 
-    font-size: calc(14px + (18 - 14) * ( (100vw - 480px) / ( 1024 - 580) )); 
-    } 
-    } 
-    @media (min-width: 700px) and (max-width: 1024px) { 
-        .Zagolovok { 
-        font-size: calc(14px + (18 - 14) * ( (100vw - 100px) / ( 1024 - 100) )); 
-        } 
+.filtr_ok{
+  background-color: rgba(0,0,0,0);
+  border: none;
+  margin: 0px;
+}
+.active{
+    color: yellow;
+}
+@media (min-width: 700px) and (max-width: 1024px) {
+    .Spisok {
+    font-size: calc(14px + (18 - 14) * ( (100vw - 480px) / ( 1024 - 580) ));
+    }
+    }
+    @media (min-width: 700px) and (max-width: 1024px) {
+        .Zagolovok {
+        font-size: calc(14px + (18 - 14) * ( (100vw - 100px) / ( 1024 - 100) ));
         }
-        @media (max-width: 700px) { 
-            .LeftBar { width: 150px; 
-             
-            } 
-            }  
-            @media (max-width: 700px)  { 
-                .Spisok { 
-                font-size: calc(14px + (18 - 14) * ( (100vw - 480px) / ( 1024 - 580) )); 
-                } 
-                } 
-                @media (max-width: 700px)  { 
-                    .Zagolovok { 
-                    font-size: calc(14px + (18 - 14) * ( (100vw - 100px) / ( 1024 - 100) )); 
-                    } 
-                    }       
+        }
+        @media (max-width: 700px) {
+            .LeftBar { width: 150px;
+
+            }
+            }
+            @media (max-width: 700px)  {
+                .Spisok {
+                font-size: calc(14px + (18 - 14) * ( (100vw - 480px) / ( 1024 - 580) ));
+                }
+                }
+                @media (max-width: 700px)  {
+                    .Zagolovok {
+                    font-size: calc(14px + (18 - 14) * ( (100vw - 100px) / ( 1024 - 100) ));
+                    }
+                    }

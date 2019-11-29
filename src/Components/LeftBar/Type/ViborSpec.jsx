@@ -13,7 +13,7 @@ class LeftBarSpecDITI extends React.Component{
             <NavLink to="/dimitrovgrad/DITI/Prog" className="Elem"> Программирование</NavLink><br/>
             <NavLink to="/dimitrovgrad/DITI/Rad" className="Elem"> Радиация</NavLink><br/>
             <NavLink to="/dimitrovgrad/DITI/Ec" className="Elem"> Экономика</NavLink><br/>
-            <button onClick={this.Knop=()=> {window.location.reload()}} className="Elem"> Подтвердит</button><br/>
+            <button onClick={this.Knop=()=> {window.location.reload()}} className="Elem filtr_ok"> Подтвердить</button><br/>
         </div> 
     </nav> 
     );
