@@ -1,8 +1,8 @@
 import React from 'react';
-import '../zakaz.css';
+import '../zakaz';
 import {NavLink, Route, BrowserRouter} from "react-router-dom";
 
-class LeftBarVibor extends React.Component{
+class Zakaz extends React.Component{
     render(){
     return (
 
@@ -18,4 +18,4 @@ class LeftBarVibor extends React.Component{
     }
 }
 
-export default LeftBarVibor;
+export default Zakaz;
