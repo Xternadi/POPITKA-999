@@ -12,6 +12,7 @@ import DannieMolUrist from '../LeftBar/Dimitrovgrad/Molochka/Urist/dannieMolUris
 import Portfolio from '../portfolio/portfolio';
 import {BrowserRouter, Route} from "react-router-dom";
 import Zagruzka from './Zagruzka';
+import portfolioDTKAuto from '../LeftBar/Dimitrovgrad/DTK/Auto/portfolioDTKAuto';
 
 
 class Content extends React.Component{
@@ -30,6 +31,7 @@ class Content extends React.Component{
             <Route exact path="/dimitrovgrad/Molochka/Holod" component={DannieMolHolod}/>
             <Route exact path="/dimitrovgrad/Molochka/Urist" component={DannieMolUrist}/>
             <Route exact path="/dimitrovgrad/DITI/Prog/choose" component={Portfolio}/>
+            <Route path="/dimitrovgrad/DTK/Auto/Choosen" component={portfolioDTKAuto}/>
     </div>
     </BrowserRouter> 
     );

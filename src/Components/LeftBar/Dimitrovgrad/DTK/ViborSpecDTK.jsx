@@ -10,7 +10,7 @@ class LeftBarSpecDTK extends React.Component{
         <nav>
             <h1 className="Zagolovok">Специальность</h1>
         <div className="Spisok">
-        <NavLink to="/dimitrovgrad" className="Elem"> Назад</NavLink><br/>
+        <NavLink to="/dimitrovgrad" className="Elem Nazad"> Назад</NavLink><br/>
             <NavLink to="/dimitrovgrad/DTK/Prog" className="Elem"> Программирование</NavLink><br/>
             <NavLink to="/dimitrovgrad/DTK/Auto" className="Elem"> Автомеханник</NavLink><br/>
             <NavLink to="/dimitrovgrad/DTK/El" className="Elem"> Автоэлектрик</NavLink><br/>

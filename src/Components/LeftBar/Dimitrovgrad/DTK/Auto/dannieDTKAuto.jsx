@@ -3,6 +3,7 @@ import '../../../../Content/Content.css';
 import {NavLink} from 'react-router-dom';
 import firebase from "../../../../../Firestore.js";
 
+var Choosen;
 class DannieDTKAUto extends React.Component{
     constructor() {
         super()
@@ -49,7 +50,7 @@ class DannieDTKAUto extends React.Component{
     return (
         <div>
             {this.state.auto.map(item => (
-          <NavLink to="/dimitrovgrad/DITI/Prog/Choose"><div className="block">
+          <NavLink to={"/dimitrovgrad/DTK/Auto/Choosen/"+item.id} onClick={this.knop =()=> {Choosen=item.id; console.log(Choosen)}}><div className="block">
               <div className="Photo"><img className="Photo" src={item.Photo} /></div>
               <div className="FIO">{item.Familiya} {item.Imya} {item.Otchestvo}</div><br/>
               <div className="dannieostudente">Данные о студенте:<br/> {item.Dannieostudente} </div>
@@ -77,5 +78,5 @@ class DannieDTKAUto extends React.Component{
     );
     }
 }
-
+export {Choosen}
 export default DannieDTKAUto;

@@ -3,6 +3,7 @@ import React from 'react';
 import './portfolio.css';
 
 class portfolio extends React.Component {
+
   render() {
     return (
       <div className="rezume">

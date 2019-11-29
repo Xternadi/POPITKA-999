@@ -1,7 +1,8 @@
 .rezume{
 	width:800px;
 	height: 1200px;
-	background-color: #CCFFFF;
+	background-color: #CCFFFF; 
+	margin-top: 50px;
 
 }
 .fst_section{
@@ -9,15 +10,20 @@
 	height: 200px;
 }
 .photostud{
-	width: 150px;
+	width: 40%;
 	height: 200px;
 	float: left;
 	background-color: #b0aaaa;
+	margin-left: 30%;
+}
+.photostudp{
+	width: 100%;
+	height: 200px;
 }
 .FIO_spec{
 	float: left;
-	width: 650px;
-	height: 200px;
+	width: 100%;
+	height: 150px;
 }
 .FIO_spec > div{
 text-align: center;
@@ -50,7 +56,8 @@ font-size: 30px;
 	font-size: 30px;
 }
 .about{
-	width: 800px;
+	width: 100%;
+	float: left;
 }
 h2{
 	text-align: center;
@@ -74,7 +81,6 @@ h2{
 	height: 27px;
 }
 .recomendation > textarea{
-	float: right;
     width: 500px;
 }	
 .recomendation > input{ 
@@ -87,7 +93,7 @@ h2{
 	padding-left: 7px; 
 	} 
 	.recomendation > textarea{ 
-	float: right; 
+		text-align: center; 
 	width: 500px; 
 	} 
 	input{ 
@@ -99,3 +105,30 @@ h2{
 	border: none; 
 	
 	}
+	.FIO_student{
+		font-size: 20pt;
+		background-color: rgba(0,0,0,0); 
+		color: black;
+		font-weight: bold;
+		float: left;
+	border: none;
+	width: 100%;
+	text-align: center;
+	}
+.spec_student{
+	font-size: 18pt;
+	background-color: rgba(0,0,0,0); 
+		color: black;
+		font-weight: bold;
+		text-align: center;
+	border: none;
+}
+.about_student{
+	font-size: 18pt;
+	Color: black;
+}
+.specialnost{
+	width:100%;
+	height: 60px;
+	text-align: center;
+}
