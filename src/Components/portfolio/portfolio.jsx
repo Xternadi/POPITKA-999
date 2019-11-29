@@ -12,37 +12,38 @@ class portfolio extends React.Component {
           </div>
           <div className="FIO_spec">
             <div className="FIOstud">
-              <input type="text" name="FIO_student" disabled/>
+              <input type="text" name="FIO_student" disabled />
             </div>
-              <div>Специальность</div>
-              <div className="spec">
-                <input type="text" name="spec_student" disabled/>
-              </div>
-              </div>
+            <div>Специальность</div>
+            <div className="spec">
+              <input type="text" name="spec_student" disabled />
             </div>
-            <div className="about">
-              <h2>О студенте</h2>
-              <textarea name="about_student" cols="40" rows="10" disabled></textarea>
-            </div>
-            <h2>Рекомендации преподавателей</h2>
-            <div className="recomendation">
-              <input type="text" name="FIO_prepod" disabled value="Иванов Иван Иванович"/>
-                <textarea name="about_student" cols="40" rows="4" disabled>Крутой студент, везде учавствует, всё круто!</textarea>
-                <input type="text" name="spec_prepod" disabled value="Системное программирование"/>
-  </div>
-                <div className="recomendation">
-                  <input type="text" name="FIO_prepod" disabled value="Иванов Иван Иванович"/>
-                    <textarea name="about_student" cols="40" rows="4" disabled>Крутой студент, везде учавствует, всё круто!</textarea>
-                    <input type="text" name="spec_prepod" disabled value="Системное программирование"/>
-  </div>
-                    <div className="recomendation">
-                      <input type="text" name="FIO_prepod" disabled value="Иванов Иван Иванович"/>
-                        <textarea name="about_student" cols="40" rows="4" disabled>Крутой студент, везде учавствует, всё круто!</textarea>
-                        <input type="text" name="spec_prepod" disabled value="Системное программирование"/>
-  </div>
-</div>
-                      );
-                      }
-                  }
-                  
-                  export default portfolio;
+          </div>
+        </div>
+        <div className="about">
+          <h2>О студенте</h2>
+          <textarea name="about_student" cols="40" rows="10" disabled></textarea>
+        </div>
+        <h2>Рекомендации преподавателей</h2>
+        <div className="recomendation">
+          <input type="text" name="FIO_prepod" disabled value="Иванов Иван Иванович" />
+          <textarea name="about_student" cols="40" rows="4" disabled>Крутой студент, везде учавствует, всё круто!</textarea>
+          <input type="text" name="spec_prepod" disabled value="Системное программирование" />
+        </div>
+        <div className="recomendation">
+          <input type="text" name="FIO_prepod" disabled value="Иванов Иван Иванович" />
+          <textarea name="about_student" cols="40" rows="4" disabled>Крутой студент, везде учавствует, всё круто!</textarea>
+          <input type="text" name="spec_prepod" disabled value="Системное программирование" />
+        </div>
+        <div className="recomendation">
+          <input type="text" name="FIO_prepod" disabled value="Иванов Иван Иванович" />
+          <textarea name="about_student" cols="40" rows="4" disabled>Крутой студент, везде учавствует, всё круто!</textarea>
+          <input type="text" name="spec_prepod" disabled value="Системное программирование" />
+        </div>
+        <button onClick={this.Knopka=()=> {}} className="redactirovat_portfolio"> Редактировать</button>
+      </div>
+    );
+  }
+}
+
+export default portfolio;
