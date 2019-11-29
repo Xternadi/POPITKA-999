@@ -1,0 +1,38 @@
+.shapka{
+    background: #33ff66;
+    font-size: 14pt;
+    height: 65px;
+    width: 100%;
+}
+.Login{
+    width: 500px;
+    height: 65px;
+    margin-left: auto;
+}
+.LoginUch{
+    text-align: center;
+    padding-top: 10px;
+    width: 150px;
+    height: 40px;
+    float: left;
+}
+.LoginRab{
+    text-align: center;
+    padding-top: 10px;
+    width: 150px;
+    height: 40px;
+    float: left;
+}
+.Autoriz{
+    text-align: right;
+    padding-top: 10px;
+    width: 150px;
+    height: 40px;
+    float: left;
+}
+.LoginUch:hover{
+    border: 2px solid blue;
+}
+.LoginRab:hover{
+    border: 2px solid blue;
+}
