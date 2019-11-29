@@ -10,8 +10,6 @@ class LeftBarVibor extends React.Component{
         <h1 className="Zagolovok">Город</h1>
         <div className="Spisok">
             <NavLink to="/dimitrovgrad" className="Elem"> Димитровград</NavLink><br/>
-            <NavLink to="/dimitrovgrad" className="Elem"> ДТК</NavLink><br/>
-            <NavLink to="/dimitrovgrad" className="Elem"> Молочка</NavLink><br/>
         </div>  
     </nav> 
     );

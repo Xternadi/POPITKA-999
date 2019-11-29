@@ -1,5 +1,5 @@
 import React from 'react';
-import '../LeftBar.css';
+import '../../LeftBar.css';
 import {NavLink, Route, BrowserRouter} from "react-router-dom";
 
 class LeftBarSpecDITI extends React.Component{
@@ -19,5 +19,7 @@ class LeftBarSpecDITI extends React.Component{
     );
     }
 }
+
+
 
 export default LeftBarSpecDITI;
