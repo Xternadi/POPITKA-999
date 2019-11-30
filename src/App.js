@@ -5,7 +5,7 @@ import LeftBar from './Components/LeftBar/LeftBar';
 import Content from './Components/Content/Content';
 import {BrowserRouter, Route, NavLink} from 'react-router-dom';
 import LeftBarUchrezh from './Components/LeftBar/Type/ViborUchred';
-import LeftBarSpecDITI from './Components/LeftBar/Type/ViborSpec';
+import LeftBarSpecDITI from './Components/LeftBar/Dimitrovgrad/DITI/ViborSpecDITI';
 
 
 function App() {

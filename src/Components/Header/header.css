@@ -6,7 +6,7 @@
     border: 3px double black;
 }
 .Login{
-    width: 150px;
+    width: 550px;
     height: 65px;
     margin-left: auto;
 }
@@ -24,6 +24,7 @@
     height: 40px;
     float: left;
 }*/
+
 .Autoriz{
     text-align: center;
     padding-top: 20px;

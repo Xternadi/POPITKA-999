@@ -24,6 +24,7 @@
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     float: left;
+    background: blue;
 }
 .FIO{
     font-size: 18pt;
@@ -31,4 +32,25 @@
     font-weight: bold;
     margin-left: 10px ;
     float: left;
+    width: 75%;
+}
+.dannieostudente{
+    float: left;
+    width: 50%;
+    height: 60px;
+    margin-left: 15px;
+    color: black;
+    border-right: 2px solid gray;
+    font-size: 14pt;
+}
+.sredball{
+    float: left;
+    margin-left: 15px;
+    color: black;
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+}
+.Nazad{
+    color: white !important;
 }
