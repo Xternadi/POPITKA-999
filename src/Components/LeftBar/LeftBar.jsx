@@ -4,7 +4,7 @@ import {NavLink, Route, BrowserRouter, Link} from "react-router-dom";
 import LeftBarUchrezh from './Type/ViborUchred';
 import LeftBarSpecDITI from './Dimitrovgrad/DITI/ViborSpecDITI';
 import LeftBarSpecDTK from './Dimitrovgrad/DTK/ViborSpecDTK';
-import LeftBarSpecMol from './Dimitrovgrad/Molochka/ViborSpecMol';
+import LeftBarSpecMol from './Dimitrovgrad/Mol/ViborSpecMol';
 import LeftBarVibor from './Type/ViborGoroda';
 
 

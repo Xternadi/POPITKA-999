@@ -11,9 +11,9 @@ class LeftBarSpecMol extends React.Component{
             <h1 className="Zagolovok">Специальность</h1>
         <div className="Spisok">
         <NavLink to="/dimitrovgrad" className="Elem Nazad"> Назад</NavLink><br/>
-            <NavLink to="/dimitrovgrad/Molochka/bank" className="Elem"> Банковское дело</NavLink><br/>
-            <NavLink to="/dimitrovgrad/Molochka/urist" className="Elem"> Юрист</NavLink><br/>
-            <NavLink to="/dimitrovgrad/Molochka/Holod" className="Elem"> Криотехник</NavLink><br/>
+            <NavLink to="/dimitrovgrad/Mol/Bank" className="Elem"> Банковское дело</NavLink><br/>
+            <NavLink to="/dimitrovgrad/Mol/Urist" className="Elem"> Юрист</NavLink><br/>
+            <NavLink to="/dimitrovgrad/Mol/Holod" className="Elem"> Криотехник</NavLink><br/>
             <button onClick={this.Knop=()=> {window.location.reload()}} className="Elem filtr_ok"> Подтвердить</button><br/>
         </div> 
     </nav> 

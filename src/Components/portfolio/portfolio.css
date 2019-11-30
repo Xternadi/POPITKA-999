@@ -81,7 +81,8 @@ h2{
 	height: 27px;
 }
 .recomendation > textarea{
-    width: 500px;
+	width: 100%;
+	text-align: center;
 }	
 .recomendation > input{ 
 	float: left; 
@@ -92,10 +93,7 @@ h2{
 	font-size: 17px; 
 	padding-left: 7px; 
 	} 
-	.recomendation > textarea{ 
-		text-align: center; 
-	width: 500px; 
-	} 
+	
 	input{ 
 	border: none; 
 	} 
@@ -126,6 +124,7 @@ h2{
 .about_student{
 	font-size: 18pt;
 	Color: black;
+	resize: none;
 }
 .specialnost{
 	width:100%;

@@ -4,11 +4,11 @@ import {NavLink} from 'react-router-dom';
 import firebase from "../../../../../Firestore.js";
 
 var Choosen;
-class DannieDITIEc extends React.Component{
+class DannieMolUrist extends React.Component{
     constructor() {
         super()
         this.state = {
-            Ec: []
+            Urist: []
         }
         
     }
@@ -19,8 +19,8 @@ class DannieDITIEc extends React.Component{
         });
         let newState = [];
       
-        const EcMeh = db.collection("Город").doc("Димитровград").collection("МИФИ").doc("Специальность").collection("Экономика");
-        let getEc = EcMeh.get()
+        const UristMeh = db.collection("Город").doc("Димитровград").collection("Молочка").doc("Специальность").collection("Юрист");
+        let getUrist = UristMeh.get()
         .then(snapshot => {
             snapshot.forEach(doc => {
               console.log(doc.id, '=>', doc.data());
@@ -38,7 +38,7 @@ class DannieDITIEc extends React.Component{
               })
             });
             this.setState({
-                Ec: newState
+                Urist: newState
             })
       
           })
@@ -49,8 +49,8 @@ class DannieDITIEc extends React.Component{
     render(){
     return (
         <div>
-            {this.state.Ec.map(item => (
-          <NavLink to={"/dimitrovgrad/DITI/Ec/Choosen/"+item.id} onClick={this.knop =()=> {Choosen=item.id; console.log(Choosen)}}><div className="block">
+            {this.state.Urist.map(item => (
+          <NavLink to={"/dimitrovgrad/Mol/Urist/Choosen/"+item.id} onClick={this.knop =()=> {Choosen=item.id; console.log(Choosen)}}><div className="block">
               <div className="Photo"><img className="Photo" src={item.Photo} /></div>
               <div className="FIO">{item.Familiya} {item.Imya} {item.Otchestvo}</div><br/>
               <div className="dannieostudente">Данные о студенте:<br/> {item.Dannieostudente} </div>
@@ -79,4 +79,4 @@ class DannieDITIEc extends React.Component{
     }
 }
 export {Choosen}
-export default DannieDITIEc;
+export default DannieMolUrist;

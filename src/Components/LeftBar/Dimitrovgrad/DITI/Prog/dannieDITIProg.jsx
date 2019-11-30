@@ -3,11 +3,12 @@ import '../../../../Content/Content.css';
 import {NavLink} from 'react-router-dom';
 import firebase from "../../../../../Firestore.js";
 
-class DannieProgDITI extends React.Component{
+var Choosen;
+class DannieDITIProg extends React.Component{
     constructor() {
         super()
         this.state = {
-            prog: []
+            Prog: []
         }
         
     }
@@ -18,8 +19,8 @@ class DannieProgDITI extends React.Component{
         });
         let newState = [];
       
-        const progref = db.collection("Город").doc("Димитровград").collection("МИФИ").doc("Специальность").collection("Программирование");
-        let getProg = progref.get()
+        const ProgMeh = db.collection("Город").doc("Димитровград").collection("МИФИ").doc("Специальность").collection("Программирование");
+        let getProg = ProgMeh.get()
         .then(snapshot => {
             snapshot.forEach(doc => {
               console.log(doc.id, '=>', doc.data());
@@ -37,7 +38,7 @@ class DannieProgDITI extends React.Component{
               })
             });
             this.setState({
-                prog: newState
+                Prog: newState
             })
       
           })
@@ -48,15 +49,15 @@ class DannieProgDITI extends React.Component{
     render(){
     return (
         <div>
-          {this.state.prog.map(item => (
-          <NavLink to="/dimitrovgrad/DITI/Prog/Choose"><div className="block">
+            {this.state.Prog.map(item => (
+          <NavLink to={"/dimitrovgrad/DITI/Prog/Choosen/"+item.id} onClick={this.knop =()=> {Choosen=item.id; console.log(Choosen)}}><div className="block">
               <div className="Photo"><img className="Photo" src={item.Photo} /></div>
               <div className="FIO">{item.Familiya} {item.Imya} {item.Otchestvo}</div><br/>
               <div className="dannieostudente">Данные о студенте:<br/> {item.Dannieostudente} </div>
             <div className="sredball">Средний балл: <br/>{item.SredniyBall}</div>
               </div>
           </NavLink>  
-          ))} 
+          ))}
           {/*<div className="block">
               <div className="Photo"><img className="Photo" src={photo}/></div>
               <div className="FIO">Иванова Елена Ивановна</div>
@@ -77,5 +78,5 @@ class DannieProgDITI extends React.Component{
     );
     }
 }
-
-export default DannieProgDITI;
+export {Choosen}
+export default DannieDITIProg;
